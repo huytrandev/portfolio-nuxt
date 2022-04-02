@@ -1,15 +1,12 @@
 <template>
-  <HelloWorld />
+  <div style="height: 200vh;">
+    Home page
+  </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import HelloWorld from '@/components/HelloWorld.vue'
 
-@Component({
-  components: {
-    HelloWorld
-  }
-})
+@Component({})
 export default class Index extends Vue {}
 </script>
