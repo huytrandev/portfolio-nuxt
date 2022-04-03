@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  scroll-behavior: smooth;
+}
+
+img {
+  object-fit: cover;
+}
+
 .bg-light-color {
   background-color: #f0e7db;
 }
