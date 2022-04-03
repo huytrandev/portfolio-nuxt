@@ -6,27 +6,27 @@
       class="nav-container max-w-3xl w-full px-4 inline-flex justify-between items-center h-14 py-2"
     >
       <div class="nav-wrapper">
-        <nuxt-link to="/">
+        <NuxtLink to="/">
           <span class="text-lg font-bold tracking-wide">Huy Tran</span>
-        </nuxt-link>
-        <nuxt-link
+        </NuxtLink>
+        <NuxtLink
           to="/works"
           class="nav-item hover:underline underline-offset-4 hidden sm:inline"
         >
           <span class="">Works</span>
-        </nuxt-link>
-        <nuxt-link
+        </NuxtLink>
+        <NuxtLink
           to="/posts"
           class="nav-item hover:underline underline-offset-4 hidden sm:inline"
         >
           <span class="">Posts</span>
-        </nuxt-link>
-        <nuxt-link
+        </NuxtLink>
+        <NuxtLink
           to="/source"
           class="nav-item hover:underline underline-offset-4 hidden sm:inline"
         >
           <span class="">Source</span>
-        </nuxt-link>
+        </NuxtLink>
       </div>
       <div class="inline-flex">
         <button
@@ -47,18 +47,18 @@
       v-if="showMenu"
       class="mobile-menu fixed right-3 bg-white shadow-sm w-1/2 rounded duration-200 flex flex-col text-left px-4 py-2"
     >
-      <nuxt-link to="/">
+      <NuxtLink to="/">
         <span>About</span>
-      </nuxt-link>
-      <nuxt-link to="/works">
+      </NuxtLink>
+      <NuxtLink to="/works">
         <span>Works</span>
-      </nuxt-link>
-      <nuxt-link to="/posts">
+      </NuxtLink>
+      <NuxtLink to="/posts">
         <span>Posts</span>
-      </nuxt-link>
-      <nuxt-link to="/source">
+      </NuxtLink>
+      <NuxtLink to="/source">
         <span>Source</span>
-      </nuxt-link>
+      </NuxtLink>
     </div>
   </nav>
 </template>
