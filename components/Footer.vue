@@ -17,6 +17,6 @@ export default class Footer extends Vue {
 
 <style lang="scss" scoped>
 footer {
-  height: 72px;
+  height: 70px;
 }
 </style>
