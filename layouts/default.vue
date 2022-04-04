@@ -14,7 +14,7 @@ import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 
 @Component({
-  head: { title: 'Huy Tran - Home page' },
+  head: { title: 'Huy Tran Portfolio' },
   components: {
     Navbar,
     Footer

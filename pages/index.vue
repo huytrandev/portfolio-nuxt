@@ -5,16 +5,18 @@
     <Work class="mb-8" />
     <Bio class="mb-8" />
     <Hobby class="mb-8" />
+    <Social class="mb-8" />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import Banner from '@/components/Banner.vue'
-import Personal from '@/components/Personal.vue'
-import Work from '@/components/Work.vue'
-import Bio from '@/components/Bio.vue'
-import Hobby from '@/components/Hobby.vue'
+import Banner from '~/components/Banner.vue'
+import Personal from '~/components/Personal.vue'
+import Work from '~/components/Work.vue'
+import Bio from '~/components/Bio.vue'
+import Hobby from '~/components/Hobby.vue'
+import Social from '~/components/Social.vue'
 
 @Component({
   components: {
@@ -22,7 +24,8 @@ import Hobby from '@/components/Hobby.vue'
     Personal,
     Work,
     Bio,
-    Hobby
+    Hobby,
+    Social
   }
 })
 export default class Index extends Vue {
