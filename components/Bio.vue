@@ -20,7 +20,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import { EventDto } from '@/types/common'
+import { EventDto } from '~/types/common'
 
 @Component({
   components: {}

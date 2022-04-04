@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full bg-opacity-30 rounded-md py-3"
+    class="w-full bg-opacity-40 rounded-md py-3"
     :class="`${backgroundColor} ${textAlign}`"
   >
     <span class="font-normal">{{ bannerContent }}</span>
