@@ -29,7 +29,7 @@ export default class Bio extends Vue {
   events: EventDto[] = [
     {
       year: 1999,
-      event: 'Born in Vinh Long (Vĩnh Long), Vietnam'
+      event: 'Born in Vinh Long, Vietnam'
     },
     {
       year: 2021,
