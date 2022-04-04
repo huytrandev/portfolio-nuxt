@@ -15,18 +15,13 @@
         >
           <span class="">Works</span>
         </NuxtLink>
-        <NuxtLink
-          to="/posts"
-          class="nav-item hover:underline underline-offset-4 hidden sm:inline"
-        >
-          <span class="">Posts</span>
-        </NuxtLink>
-        <NuxtLink
-          to="/source"
+        <a
+          :href="`https://github.com/huytrandev/portfolio-nuxt`"
+          target="_blank"
           class="nav-item hover:underline underline-offset-4 hidden sm:inline"
         >
           <span class="">Source</span>
-        </NuxtLink>
+        </a>
       </div>
       <div class="inline-flex">
         <button
@@ -53,12 +48,9 @@
       <NuxtLink to="/works">
         <span>Works</span>
       </NuxtLink>
-      <NuxtLink to="/posts">
-        <span>Posts</span>
-      </NuxtLink>
-      <NuxtLink to="/source">
+      <a :href="`https://github.com/huytrandev/portfolio-nuxt`" target="_blank">
         <span>Source</span>
-      </NuxtLink>
+      </a>
     </div>
   </nav>
 </template>
